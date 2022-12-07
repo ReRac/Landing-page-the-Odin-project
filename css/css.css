@@ -21,6 +21,7 @@ ul {
   a {   
    font-size: 24px;
    background: #1f2937;
+   padding: 8px;
    text-decoration: none;
    color: #F9FAF8;
   }
@@ -29,6 +30,8 @@ ul {
     max-width: 100%;
 	height: auto;
     color: #F9FAF8;
+    font-weight: 400;
+    font-weight: 24px #F9FAF8;
 }
 
 .container {
@@ -38,7 +41,7 @@ ul {
 }
 .header .container {
     background-color: #1f2937;
-	padding: 32px;
+	padding: 64px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -60,13 +63,37 @@ ul {
 	padding: .5em 1.5em;
 }
 
-.img {
-  
-}
-
-
-.heroImage
-.heroContents {
+.hero {
+    background-color: #1f2937;
+    font-weight: 48px extra-bold #F9FAF8;;
+    color: #F9FAF8;
     display: flex;
-
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px;
+    margin: 0rem auto 0r auto; 
 }
+
+.hero img {
+    height: 350px;
+    border: 1px solid rgb(8, 46, 8);
+    
+}
+
+.hero p {
+    font-weight: 18px #E5E7EB;
+    margin-right: 32px;
+}
+
+.my-button{
+    display: block;
+    border-radius: 12px;
+    border: 1px solid #3882f6;
+    padding: 10px 20px;
+    background: #3882f6;
+    font-size: 1em;
+    cursor: pointer;
+    color: #F9FAF8;
+    margin-top: 12px;
+}
+
