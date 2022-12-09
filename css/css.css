@@ -99,6 +99,7 @@ ul {
 
 .content {
     text-align: center;
+    margin: 32px;
 }
 
 .main {
@@ -125,7 +126,7 @@ ul {
 .project {
     border-radius: 12px;
     border: 1px solid #3882f6;
-    padding: 2.25rem 2.25rem ;
+    padding: 1.25rem 1.25rem ;
     background: #3882f6;
     font-size: 1em;
     cursor: pointer;
@@ -135,3 +136,20 @@ ul {
     margin: 1em 1em 1em 1em;
 }
 
+.quote {
+    background: #E5E7EB;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: center;-color: #e5e7eb;
+    font-weight: 36px 300 italic #1f2937;
+    font-style: italic;
+    padding: 64px;
+    margin: 0rem auto 0r auto; 
+    margin-bottom: 1em;
+}
+
+.quote--text {
+   text-align: right;
+   font-weight: bold;
+   font-style: normal;
+}
