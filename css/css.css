@@ -140,12 +140,12 @@ ul {
     background: #E5E7EB;
     display: inline-flex;
     flex-flow: row wrap;
-    justify-content: center;-color: #e5e7eb;
+    justify-content: center;
     font-weight: 36px 300 italic #1f2937;
     font-style: italic;
     padding: 64px;
     margin: 0rem auto 0r auto; 
-    margin-bottom: 1em;
+
 }
 
 .quote--text {
@@ -153,3 +153,52 @@ ul {
    font-weight: bold;
    font-style: normal;
 }
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    height: 100%;
+    padding: 4rem;
+    margin: 0rem auto 0 auto; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.allinformation {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #3882f6;
+    padding: 3rem;
+    border-radius: 12px;
+    color: #F9FAF8;
+    margin: 2rem;
+    q
+
+}
+
+
+.link {
+    display: block;
+    align-self: center;
+    border-radius: 12px;
+    border: 1px solid #F9FAF8;
+    padding: 10px 20px;
+    background: #3882f6;
+    font-size: 1.125em;
+    cursor: pointer;
+    color: #F9FAF8;
+    margin-top: 1em;
+    
+}
+    .item {
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 80%;
+    }
+
+
